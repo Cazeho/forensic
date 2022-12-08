@@ -15,7 +15,7 @@ Install volatility on Linux distro (ubuntu/debian/kali/sift)
 
 Volatility version => 2.6.1
 
-udapte on sfit ditro
+udapte on sfit distro
 
 
 ## Additional plugins
