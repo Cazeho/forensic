@@ -9,7 +9,7 @@ forensic Tools: https://github.com/mesquidar/ForensicsTools
 # Volatility complete training for digital forensic analyst
 
 
-Install volatility on Linux distro (ubuntu/debian/kali/sift)
+Install volatility on Linux distro (ubuntu/debian/kali/sift) working version !!
 
 ```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/volatility-install.sh | sh```
 
