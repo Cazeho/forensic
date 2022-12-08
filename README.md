@@ -2,6 +2,8 @@
 
 forensic Tools: https://github.com/mesquidar/ForensicsTools
 
+- volatility
+- ghidra
 
 
 # Volatility complete training for digital forensic analyst
