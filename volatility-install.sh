@@ -3,7 +3,7 @@ nano /usr/local/lib/python2.7/dist-packages/volatility/plugins/
 
 #!/usr/bin/python2
 
-
+apt install python2 
 pip install volatility
 pip install pycrypto
 
