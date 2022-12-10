@@ -7,7 +7,8 @@ apt install python2 python2.7-dev libpython2-dev -y
 apt install python-pip
 apt install subversion
 
-pip install pycrypto
+pip2 install pycrypto
+pip2 install distorm3
 
 svn export https://github.com/volatilityfoundation/volatility/trunk/volatility
 
