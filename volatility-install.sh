@@ -9,7 +9,6 @@ pip install pycrypto
 
 
 
-pylint: disable-msg=C0111
 import sys
 
 if sys.version_info < (2, 6, 0):
