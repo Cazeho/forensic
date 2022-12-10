@@ -24,3 +24,6 @@ udapte on sfit distro
 
 
 ## Additional plugins
+
+
+# Ghidra
