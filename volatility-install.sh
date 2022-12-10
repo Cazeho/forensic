@@ -1,5 +1,4 @@
 nano /usr/local/lib/python2.7/dist-packages/volatility/plugins/
-/usr/local/bin/vol.py
 
 
 
@@ -10,10 +9,12 @@ apt install subversion
 pip2 install pycrypto
 pip2 install distorm3
 
+cd /usr/local/lib/python2.7/dist-packages/
+
 svn export https://github.com/volatilityfoundation/volatility/trunk/volatility
 
-mkdir volatility
-cd volatility
+mkdir -p /opt/volatility
+cd /opt/volatility
 EOF
 chmod +x vol.py
 
