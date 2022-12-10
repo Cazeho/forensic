@@ -4,6 +4,10 @@ nano /usr/local/lib/python2.7/dist-packages/volatility/plugins/
 #!/usr/bin/python2
 
 
+pip install volatility
+pip install pycrypto
+
+
 
 pylint: disable-msg=C0111
 import sys
