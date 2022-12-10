@@ -1,6 +1,9 @@
 nano /usr/local/lib/python2.7/dist-packages/volatility/plugins/
 /usr/local/bin/vol.py
 
+#!/usr/bin/python2
+
+
 
 pylint: disable-msg=C0111
 import sys
