@@ -5,7 +5,7 @@ nano /usr/local/lib/python2.7/dist-packages/volatility/plugins/
 
 apt install python2 python2.7-dev libpython2-dev -y
 apt install python-pip
-apt-get install subversion
+apt install subversion
 
 pip install pycrypto
 
