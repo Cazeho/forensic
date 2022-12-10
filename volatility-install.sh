@@ -1,7 +1,7 @@
 nano /usr/local/lib/python2.7/dist-packages/volatility/plugins/
 /usr/local/bin/vol.py
 
-#!/usr/bin/python2
+
 
 apt install python2 python2.7-dev libpython2-dev -y
 apt install python-pip
@@ -18,6 +18,9 @@ EOF
 chmod +x vol.py
 
 ln -s $PWD/vol.py /usr/local/bin/volatility
+
+
+#!/usr/bin/python2
 
 import sys
 
