@@ -27,3 +27,5 @@ udapte on sift distro
 
 
 # Ghidra
+
+```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/ghidra-install.sh | sh```
