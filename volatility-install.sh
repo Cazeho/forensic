@@ -12,7 +12,12 @@ pip2 install distorm3
 
 svn export https://github.com/volatilityfoundation/volatility/trunk/volatility
 
+mkdir volatility
+cd volatility
+EOF
+chmod +x vol.py
 
+ln -s $PWD/vol.py /usr/local/bin/volatility
 
 import sys
 
