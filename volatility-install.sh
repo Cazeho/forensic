@@ -3,7 +3,7 @@ nano /usr/local/lib/python2.7/dist-packages/volatility/plugins/
 
 #!/usr/bin/python2
 
-apt install python2 
+apt install python2 python2.7-dev libpython2-dev -y
 apt install python-pip
 
 
