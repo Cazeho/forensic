@@ -15,7 +15,7 @@ if [[ $version == 20.* ]]; then
 
   # install ubuntu-desktop
 
-  apt install ubuntu-desktop
+  apt install ubuntu-desktop -y
 
 
   # install sift template
@@ -24,7 +24,7 @@ if [[ $version == 20.* ]]; then
 
   # install xrdp
 
-  apt install xrdp
+  apt install xrdp -y
   passwd ubuntu
 else
   echo "This is not Ubuntu 20.xx."
