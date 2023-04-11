@@ -25,6 +25,9 @@ udapte on sift distro
 
 ## Additional plugins
 
+# SIFT VM
+
+```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/sift_install.sh | bash```
 
 # Ghidra
 
