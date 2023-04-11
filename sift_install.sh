@@ -26,6 +26,9 @@ if [[ $version == 20.* ]]; then
 
   apt install xrdp -y
   passwd ubuntu
+  
+  reboot
+  
 else
   echo "This is not Ubuntu 20.xx."
 fi
