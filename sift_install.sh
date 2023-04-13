@@ -8,6 +8,7 @@ version=$(lsb_release -sr)
 # Check if the version number starts with "20."
 if [[ $version == 20.* ]]; then
 
+  apt update -y
   # install cast
   cd /usr/local/bin
   wget https://github.com/ekristen/cast/releases/download/v0.14.0/cast_v0.14.0_linux_amd64.deb
