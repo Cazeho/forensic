@@ -19,3 +19,22 @@ ln -s $PWD/vol.py /usr/local/bin/volatility
 
 
 ## add firefox plugins & other
+
+cd /usr/local/lib/python2.7/dist-packages/volatility/trunk/volatility/plugins/
+
+git clone https://github.com/superponible/volatility-plugins.git
+cd volatility-plugins
+mv * ..
+cd ..
+rm -rf volatility-plugins
+
+## hollowfind
+
+git clone https://github.com/monnappa22/HollowFind.git
+cd HollowFind
+mv * ..
+cd ..
+rm -rf HollowFind
+
+
+
