@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd /opt
 
 git clone https://github.com/jesparza/peepdf
