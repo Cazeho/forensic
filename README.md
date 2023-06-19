@@ -15,6 +15,8 @@ Install volatility on Linux distro (ubuntu/debian/kali/sift) working version !!
 
 ```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/volatility-install.sh | sh```
 
+```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/peepdf-install.sh | sh```
+
 ## docker install
 
 
