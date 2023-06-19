@@ -10,3 +10,4 @@ curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/peepdf-install.sh
 
 apt install foremost -y
 apt install pdftk -y
+apt install nodejs -y
