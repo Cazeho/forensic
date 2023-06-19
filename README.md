@@ -5,11 +5,17 @@ forensic Tools: https://github.com/mesquidar/ForensicsTools
 - volatility
 - ghidra
 
+# Main install
+
+```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/forensics.sh | sh```
+
 
 # Volatility complete training for digital forensic analyst
 
 
 Install volatility on Linux distro (ubuntu/debian/kali/sift) working version !!
+
+
 
 ## Basic install
 
