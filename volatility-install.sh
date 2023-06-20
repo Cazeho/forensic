@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt update -y
+
 apt install python2 python2.7-dev libpython2-dev -y
 apt install python-pip -y
 # apt install subversion -y
