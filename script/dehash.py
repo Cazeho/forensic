@@ -12,7 +12,8 @@ import volatility.cache as cache
 
 
 class dehash(common.AbstractWindowsCommand):
-   """dehash ntml hash"""
+   """Crack NTML hashes"""
+   
    def __init__(self, config, *args, **kwargs):
        common.AbstractWindowsCommand.__init__(self, config, *args, **kwargs)
        config.add_option('SYS-OFFSET', short_option='y', type='int', help="SYSTEM hive offset (virtual)")
