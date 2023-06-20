@@ -16,6 +16,7 @@ cd /usr/local/lib/python2.7/dist-packages/
 git clone https://github.com/volatilityfoundation/volatility
 cd volatility
 chmod +x vol.py
+sed -i 's/env python$/env python2/' vol.py
 
 ln -s $PWD/vol.py /usr/local/bin/volatility
 
