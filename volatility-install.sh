@@ -1,8 +1,8 @@
 #!/bin/bash
 
 apt install python2 python2.7-dev libpython2-dev -y
-apt install python-pip
-apt install subversion
+apt install python-pip -y
+apt install subversion -y
 
 pip2 install pycrypto
 pip2 install distorm3
