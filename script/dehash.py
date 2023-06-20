@@ -12,7 +12,7 @@ import volatility.cache as cache
 
 
 class dehash(common.AbstractWindowsCommand):
-   """Crack NTLM hashes"""
+   """Crack NTLM hashes (need hashcat to run)"""
    
    def __init__(self, config, *args, **kwargs):
        common.AbstractWindowsCommand.__init__(self, config, *args, **kwargs)
