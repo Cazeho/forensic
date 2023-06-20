@@ -22,7 +22,7 @@ ln -s $PWD/vol.py /usr/local/bin/volatility
 
 ## add firefox plugins & other
 
-cd /usr/local/lib/python2.7/dist-packages/volatility/trunk/volatility/plugins/
+cd /usr/local/lib/python2.7/dist-packages/volatility/volatility/plugins/
 
 git clone https://github.com/superponible/volatility-plugins.git
 cd volatility-plugins
