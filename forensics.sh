@@ -12,3 +12,7 @@ apt install foremost -y
 apt install pdftk -y
 apt install nodejs -y
 apt install hashcat -y
+apt install snapd -y
+snap install john-the-ripper -y
+
+john-the-ripper --format=nt -w=dict.txt hash.txt
