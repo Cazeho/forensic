@@ -9,6 +9,8 @@ import volatility.plugins.registry.hivelist as hivelist
 import volatility.plugins.registry.registryapi as registryapi
 import volatility.cache as cache
 
+# use wordlist : https://github.com/danielmiessler/SecLists/tree/master
+
 def hash_decrypt():
    pass
 
