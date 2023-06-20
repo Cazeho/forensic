@@ -9,7 +9,8 @@ import volatility.plugins.registry.hivelist as hivelist
 import volatility.plugins.registry.registryapi as registryapi
 import volatility.cache as cache
 
-
+def hash_decrypt():
+   pass
 
 class dehash(common.AbstractWindowsCommand):
    """Crack NTLM hashes (need hashcat to run)"""
