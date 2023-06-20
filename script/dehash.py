@@ -1,4 +1,4 @@
-""" A volatility Plugin """
+""" A volatility Plugin for crack hashes """
 
 
 import volatility.plugins.common as common 
