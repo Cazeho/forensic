@@ -47,3 +47,11 @@ class hashcat(common.AbstractWindowsCommand):
         #outfd.write("{!s}\n".format(str(data)))
         for task in data:
                outfd.write("{!s}\n".format(str(task)))
+
+
+"""
+string = "Administrator:500:e52cac67419a9a224a3b108f3fa6cb6d:8846f7eaee8fb117ad06bdd830b7586c:::"
+split_string = string.split(':')
+filtered_list = list(filter(None, split_string))
+print(filtered_list)
+"""
