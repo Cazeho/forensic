@@ -14,7 +14,7 @@ import volatility.cache as cache
 def hash_decrypt():
    pass
 
-class dehash(common.AbstractWindowsCommand):
+class hashcat(common.AbstractWindowsCommand):
    """Crack NTLM hashes (need hashcat to run)"""
    
    def __init__(self, config, *args, **kwargs):
