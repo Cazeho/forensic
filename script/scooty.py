@@ -55,7 +55,7 @@ class scooty:
 
     def send_file(self):
         attachment_data = open(sys.argv[1]).read()
-        files = {'file': ('attachment', attachment_data)}
+        files = {'file': (sys.argv[1], attachment_data)}
         response = requests.post(VT_API_ENDPOINT, files=files,headers=session.headers)
         scan_id = response.json()['data']['id']
         VT_API_REPORT_ENDPOINT = f'https://www.virustotal.com/api/v3/analyses/{scan_id}'
