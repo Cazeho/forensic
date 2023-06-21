@@ -15,7 +15,6 @@ import requests
 import json
 import hashlib
 import argparse
-import time
 
 import sys
 
@@ -54,12 +53,11 @@ session.headers = {'X-Apikey': '7b6e2f3c3a8067581502a841b1a06346772e12c263d49a41
 class scooty:
 
     def send_file(self):
-        attachment_data = open(sys.argv[1]).read()
+        attachment_data = open(sys.argv[1],'rb')#.read()
         files = {'file': (sys.argv[1], attachment_data)}
         response = requests.post(VT_API_ENDPOINT, files=files,headers=session.headers)
         scan_id = response.json()['data']['id']
         VT_API_REPORT_ENDPOINT = f'https://www.virustotal.com/api/v3/analyses/{scan_id}'
-        time.sleep(61)
         response = requests.get(VT_API_REPORT_ENDPOINT, headers=session.headers)
         res=response.json()["url"]=f"https://www.virustotal.com/gui/file/{response.json()['meta']['file_info']['sha256']}"
         data["analyse"]=response.json()
@@ -77,11 +75,14 @@ class scooty:
         if response.status_code == 200 and len(response.json()['data']) > 0:
             return response.json()
         else:
-            return "no match found"
+            #return "no match found"
+            return hash
 
 scooty=scooty()
 
 print(scooty.send_file())
 #print(scooty.send_hash())
+
+
 
 
