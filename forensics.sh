@@ -15,4 +15,5 @@ apt install hashcat -y
 apt install snapd -y
 snap install john-the-ripper -y
 
-# john-the-ripper --format=nt -w=dict.txt hash.txt
+# john-the-ripper --format=NT -w=dict.txt hash.txt
+# john-the-ripper --format=NT  hash.txt --show
