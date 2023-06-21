@@ -33,6 +33,12 @@ udapte on sift distro
 
 ## Additional plugins
 
+- hollowfind
+- chromehistory
+- firefoxhistory
+- hashcat
+- hunt
+
 # SIFT VM
 
 ```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/sift_install.sh | bash```
