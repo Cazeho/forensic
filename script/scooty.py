@@ -1,7 +1,13 @@
 """
+Scooty
 
+Usage:
 
-
+scooty <file_path> --show
+scooty --hash <file_path> --show
+scooty <file_path> --send
+scooty --hash (md5|sha) <file_path> --send
+scooty --hash (md5|sha) <file_path>
 """
 
 import requests
@@ -22,3 +28,10 @@ files = {'file': ('attachment', attachment_data)}
 response = requests.post(VT_API_ENDPOINT, files=files, headers=headers)
 # Get the scan ID from the response
 scan_id = response.json()['data']['id']
+
+VT_API_REPORT_ENDPOINT = f'https://www.virustotal.com/api/v3/analyses/{scan_id}'
+
+print(VT_API_REPORT_ENDPOINT)
+response = requests.get(VT_API_REPORT_ENDPOINT, headers=headers)
+
+print(response.json())
