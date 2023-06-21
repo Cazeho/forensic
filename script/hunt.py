@@ -10,7 +10,7 @@ import volatility.plugins.registry.registryapi as registryapi
 
 
 class hunt(common.AbstractWindowsCommand):
-   """hunt IOCs in netcan"""
+   """Hunt IOCs in netcan"""
    
    
    def calculate(self):
