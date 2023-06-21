@@ -37,6 +37,6 @@ udapte on sift distro
 
 ```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/sift_install.sh | bash```
 
-# Ghidra
+# Remnux VM
 
-```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/ghidra-install.sh | sh```
+```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/remnux-install.sh | sh```
