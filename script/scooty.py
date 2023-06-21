@@ -6,8 +6,8 @@ Usage:
 scooty <file_path> --show
 scooty --hash <file_path> --show
 scooty <file_path> --send
-scooty --hash (md5|sha) <file_path> --send
-scooty --hash (md5|sha) <file_path>
+scooty --hash (md5|sha256) <file_path> --send
+scooty --hash (md5|sha256) <file_path>
 """
 
 import requests
