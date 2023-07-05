@@ -5,6 +5,7 @@ forensic Tools: https://github.com/mesquidar/ForensicsTools
 - volatility
 - ghidra
 - dissect (https://github.com/fox-it/dissect)
+- flarevm (https://github.com/mandiant/flare-vm)
 
 # Main install
 
