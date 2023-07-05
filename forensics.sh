@@ -17,5 +17,7 @@ snap install john-the-ripper -y
 
 pip install dissect
 
+pip install oletools
+
 # john-the-ripper --format=NT -w=dict.txt hash.txt
 # john-the-ripper --format=NT  hash.txt --show
