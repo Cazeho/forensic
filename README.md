@@ -5,6 +5,7 @@ forensic Tools: https://github.com/mesquidar/ForensicsTools
 - volatility
 - ghidra
 - dissect (https://github.com/fox-it/dissect)
+- Autopsy
 - flarevm (https://github.com/mandiant/flare-vm)
 - scooty (https://github.com/Cazeho/scooty)
 - https://ericzimmerman.github.io/#!index.md
