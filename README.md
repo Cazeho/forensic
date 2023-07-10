@@ -6,7 +6,7 @@ forensic Tools: https://github.com/mesquidar/ForensicsTools
 - ghidra
 - dissect (https://github.com/fox-it/dissect)
 - flarevm (https://github.com/mandiant/flare-vm)
-- scooty
+- scooty (https://github.com/Cazeho/scooty)
 - https://ericzimmerman.github.io/#!index.md
 
 # Main install
