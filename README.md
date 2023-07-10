@@ -7,6 +7,7 @@ forensic Tools: https://github.com/mesquidar/ForensicsTools
 - dissect (https://github.com/fox-it/dissect)
 - flarevm (https://github.com/mandiant/flare-vm)
 - scooty
+- https://ericzimmerman.github.io/#!index.md
 
 # Main install
 
