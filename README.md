@@ -52,5 +52,7 @@ udapte on sift distro
 
 ```curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/remnux-install.sh | sh```
 
-##  Forensic & Malware Lab
+# Flare VM
+
+#  Forensic & Malware Lab
 
