@@ -8,6 +8,7 @@ curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/peepdf-install.sh
 
 # install extract tools
 
+apt-get install binutils -y
 apt install foremost -y
 apt install pdftk -y
 apt install nodejs -y
@@ -16,7 +17,6 @@ apt install snapd -y
 snap install john-the-ripper -y
 
 pip install dissect
-
 pip install oletools
 
 # john-the-ripper --format=NT -w=dict.txt hash.txt
