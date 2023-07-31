@@ -18,6 +18,8 @@ snap install john-the-ripper -y
 
 pip install dissect
 pip install oletools
+pip2 install -U balbuzard
+
 
 # john-the-ripper --format=NT -w=dict.txt hash.txt
 # john-the-ripper --format=NT  hash.txt --show
