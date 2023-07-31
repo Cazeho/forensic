@@ -8,7 +8,7 @@ curl -s https://raw.githubusercontent.com/Cazeho/forensic/main/peepdf-install.sh
 
 # install extract tools
 
-apt-get install binutils -y
+apt install binutils -y
 apt install foremost -y
 apt install pdftk -y
 apt install nodejs -y
