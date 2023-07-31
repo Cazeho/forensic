@@ -19,6 +19,7 @@ snap install john-the-ripper -y
 pip install dissect
 pip install oletools
 pip2 install -U balbuzard
+pip install LnkParse3
 
 
 # john-the-ripper --format=NT -w=dict.txt hash.txt
