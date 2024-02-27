@@ -43,6 +43,7 @@ udapte on sift distro
 - firefoxhistory
 - hashcat
 - hunt
+- malware_scan
 
 # SIFT VM
 
